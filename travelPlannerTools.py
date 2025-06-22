@@ -74,7 +74,7 @@ def searchHotelUsingSerp(places:str, city:str, country:str, price: int, checkInD
     client = serpapi.Client(api_key=SERP_API_KEY)
     params = {
         "engine": "google_hotels",  
-        "api_key": "931b70ddb7fe1561bf504c3358328ec30db0be6bda4ddc2195955456031ba89f",
+        "api_key": SERP_API_KEY,
         "q": places+ "," + city,    
         "check_in_date" : checkInDate,
         "check_out_date" : checkoutDate, 
