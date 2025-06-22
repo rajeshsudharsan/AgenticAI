@@ -30,6 +30,6 @@ else
   5) if necessary info is not available LLM will either generate the response on its own or again try to call the tools repaeatedly
 
 **How to Run the Code**
-.env  - file to keep the api keys mentioned above
-pip install -r requirements.txt - This will install the required libraries
-python tripPlannerAgent.py - this will run the code
+1) .env  - file to keep the api keys mentioned above
+2) pip install -r requirements.txt - This will install the required libraries
+3) python tripPlannerAgent.py - this will run the code
