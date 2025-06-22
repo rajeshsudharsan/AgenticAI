@@ -7,7 +7,6 @@ from langgraph.prebuilt import tools_condition
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from tripPlanner import TripPlanSummary
 from typing import List
 import json
 from IPython.display import Image, display
