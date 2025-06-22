@@ -12,20 +12,7 @@ from typing import List
 import json
 from IPython.display import Image, display
 
-parser = JsonOutputParser(pydantic_object=TripPlanSummary)
 
-prompt_template=PromptTemplate(
-    template = """
-            You are a helpful Travel Assistant. 
-            Provide attractions, hotels and their address, Price of Hotel and Current Weather, forecasted Weather for the Date of travel in Tabular Format.
-            if forecasted weather is not available mentioned it as 'not known'. Provide multiple suggestions for hotel stay.
-            Use available tools for providing information and calculation of total Hotel price.
-            Format the final response as per the instruction :  {format_instruction}
-""",
-    partial_variables={"format_instruction":parser.get_format_instructions()},
-)
-
-prompt_template.format()
 
 system_prompt  = SystemMessage(
             content="""You are a helpful Travel Assistant. 
