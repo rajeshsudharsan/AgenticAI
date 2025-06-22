@@ -27,7 +27,7 @@ else
   2) call will be transferred to Tool. 
   3) Tool will do the required processing and pass the response to the LLM
   4) LLM will check if all the necessary info is available and generate the result end the process.
-  5) if necessary info is not available LLM will either generate the response on its own or again try to call the tools repaeatedly
+  5) If necessary info is not available -> LLM will either generate the response on its own or again try to call the tools repaeatedly
 
 **How to Run the Code**
 1) .env  - file to keep the api keys mentioned above
