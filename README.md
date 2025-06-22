@@ -1,4 +1,4 @@
-Agent example using Langgraph
+**Agent example using Langgraph**
 ==============================
 
 Used Following Tools
@@ -6,8 +6,10 @@ Used Following Tools
   2) Google Places API for Searching Attractions
   3) Open Weather map for Finding Weather for current Date and Travel Date
   4) Custom tool for Calculating the Total hotel price
+
 What you need to run the Code:
 
+Open AI API Key
 Google SERP API KEY
 Google Places API KEY
 OPEN WeatherMap API KEY
@@ -26,3 +28,8 @@ else
   3) Tool will do the required processing and pass the response to the LLM
   4) LLM will check if all the necessary info is available and generate the result end the process.
   5) if necessary info is not available LLM will either generate the response on its own or again try to call the tools repaeatedly
+
+**How to Run the Code**
+.env  - file to keep the api keys mentioned above
+pip install -r requirements.txt - This will install the required libraries
+python tripPlannerAgent.py - this will run the code
