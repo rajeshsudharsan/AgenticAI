@@ -9,10 +9,10 @@ Used Following Tools
 
 What you need to run the Code:
 
-Open AI API Key
-Google SERP API KEY
-Google Places API KEY
-OPEN WeatherMap API KEY
+1) Open AI API Key
+2) Google SERP API KEY
+3) Google Places API KEY
+4) OPEN WeatherMap API KEY
 
 
 
