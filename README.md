@@ -9,7 +9,7 @@ Used Following Tools
 
 What you need to run the Code:
 
-1) Open AI API Key
+1) Open AI API Key ( Any Model can be used. Good Reasoniong model will give good result)
 2) Google SERP API KEY
 3) Google Places API KEY
 4) OPEN WeatherMap API KEY
