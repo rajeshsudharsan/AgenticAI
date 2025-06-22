@@ -18,10 +18,11 @@ LLM Will interact with tools mentioned above if the prompt is related to Searchi
 
 If the question is generic
 
-  a.  LLM will generate teh result and end the process.
+  1)  LLM will generate the result and end the process.
 
 else
-  a. LLM will determine the tools required and pass the arguments required for the tool.
-  b. call will be transferred to Tool. 
-  c. Tool will do the required processing and pass the response to the LLM
-  d. LLM will check if all the necessary info is available and generate teh result end the process.
+  1) LLM will determine the tools required and pass the arguments required for the tool.
+  2) call will be transferred to Tool. 
+  3) Tool will do the required processing and pass the response to the LLM
+  4) LLM will check if all the necessary info is available and generate the result end the process.
+  5) if necessary info is not available LLM will either generate the response on its own or again try to call the tools repaeatedly
